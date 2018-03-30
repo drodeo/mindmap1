@@ -1,8 +1,9 @@
-<template>
-  <div id="app">
-    <p>{{ message }}</p>
-  </div>
-</template>
+
+   <div id='hello'>
+     {{message}}
+     <app></app>
+   </div>
+
 
 <script>
 export default {
